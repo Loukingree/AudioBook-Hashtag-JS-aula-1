@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dom Casmurro</title>
+        <link rel="stylesheet" href="./src/styles/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+
+        <div>
+
+            <img src="./images/dom-casmurro.jpeg" alt="">
+            
+            <div id="informacoes-faixa">
+                <div id="livro-autor">
+                    <p id="livro">Dom Casmurro</p>
+                    <p id="autor">Machado de Assis</p>
+                </div>
+                <p id="capitulo">Capítulo 1</p>
+            </div>
+
+            <audio id="audio-capitulo" src="./books/dom-casmurro/1.mp3"></audio>
+            
+            <div id="container-botoes">
+                <button id="voltar" class="bi bi-skip-backward-btn-fill" title="Voltar" alt="Voltar" ></button>
+                <button id="play-pause" class="bi bi-play-btn-fill" title="Play-Pause" alt="Play-Pause" ></button>
+                <button id="avancar" class="bi bi-fast-forward-btn-fill" title="Avançar" alt="Avançar" ></button>
+            </div>
+
+        </div>
+           
+        <script src="./script.js"></script>
+
+    </body>
+</html>
